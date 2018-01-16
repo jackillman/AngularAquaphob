@@ -1,0 +1,144 @@
+ .practice {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url(../../../assets/img/bg-practice.png) no-repeat center;
+    -webkit-background-size: 100% 100%;
+            background-size: 100% 100%; }
+    @media (min-width: 768px) and (max-width: 991px) {
+       .practice {
+        padding-bottom: 0px; } }
+    @media (min-width: 500px) and (max-width: 767px) {
+       .practice {
+        background: url(../../../assets/img/bg_b_mob.png) no-repeat center;
+        -webkit-background-size: 100% 100%;
+                background-size: 100% 100%; } }
+    @media (min-width: 250px) and (max-width: 499px) {
+       .practice {
+        background: url(../../../assets/img/bg_b_mob.png) no-repeat center;
+        -webkit-background-size: 100% 100%;
+                background-size: 100% 100%; } }
+     .practice__title {
+      font-size: 50px;
+      text-transform: uppercase;
+      font-family: Oswald-Bold;
+      color: #fff;
+      margin: 0;
+      margin-bottom: 15px;
+      line-height: 1;
+      padding: 0; }
+      @media (min-width: 768px) and (max-width: 991px) {
+         .practice__title {
+          font-size: 30px; } }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .practice__title {
+          font-size: 30px; } }
+      @media (min-width: 250px) and (max-width: 499px) {
+         .practice__title {
+          font-size: 30px; } }
+     .practice__highlight {
+      color: #00df5f; }
+     .practice__desc {
+      font-size: 14px;
+      color: #fff;
+      font-family: Oswald-Bold;
+      text-transform: uppercase;
+      font-weight: bold; }
+     .practice__box {
+      height: 100%;
+      overflow: hidden; }
+     .practice__numb {
+      font-size: 60px;
+      font-family: Robo-Bold;
+      color: rgba(255, 255, 255, 0.7);
+      position: relative; }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .practice__numb {
+          left: 10%; } }
+       .practice__numb:after {
+        content: "";
+        width: 150px;
+        border: 1px dashed #aaa;
+        color: red;
+        top: 50%;
+        position: absolute; }
+        @media (min-width: 768px) and (max-width: 991px) {
+           .practice__numb:after {
+            display: none; } }
+        @media (min-width: 500px) and (max-width: 767px) {
+           .practice__numb:after {
+            display: none; } }
+        @media (min-width: 250px) and (max-width: 499px) {
+           .practice__numb:after {
+            display: none; } }
+     .practice__item {
+      position: relative;
+      background: rgba(255, 255, 255, 0.8);
+      height: 240px;
+      padding: 60px 25px 10px;
+      margin-top: 60px;
+      text-align: center; }
+      @media (min-width: 992px) and (max-width: 1200px) {
+         .practice__item {
+          height: 260px; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+         .practice__item {
+          padding: 60px 15px 10px; } }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .practice__item {
+          width: 80%;
+          margin: 0 auto; } }
+      @media (min-width: 250px) and (max-width: 499px) {
+         .practice__item {
+          padding: 60px 15px 10px;
+          height: 180px; } }
+       .practice__item-hl {
+        color: #1f3a93;
+        display: block; }
+       .practice__item-img {
+        position: absolute;
+        top: -62px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%); }
+       .practice__item-desc {
+        font-size: 24px;
+        color: #282828;
+        padding: 0;
+        line-height: 1.3;
+        font-family: Museo300; }
+        @media (min-width: 992px) and (max-width: 1200px) {
+           .practice__item-desc {
+            font-size: 21px; } }
+        @media (min-width: 768px) and (max-width: 991px) {
+           .practice__item-desc {
+            font-size: 18px; } }
+        @media (min-width: 250px) and (max-width: 499px) {
+           .practice__item-desc {
+            font-size: 18px; } }
+     .practice .instruction {
+      width: 240px;
+      margin: 30px auto;
+      display: block;
+      border: none;
+      -webkit-border-radius: 30px;
+              border-radius: 30px;
+      height: 40px;
+      background: #00df5f;
+      color: #282828;
+      font-size: 20px;
+      outline: none;
+      -webkit-transition: all 1s;
+      -o-transition: all 1s;
+      transition: all 1s;
+      text-align: center;
+      text-decoration: none; }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .practice .instruction {
+          width: 50%; } }
+       .practice .instruction:active {
+        -webkit-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+                transform: translateY(2px); }
+       .practice .instruction:hover {
+        background: #09a043; }

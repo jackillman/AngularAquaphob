@@ -1,0 +1,121 @@
+ .hydrophobic {
+    padding-top: 40px; }
+    @media (min-width: 992px) and (max-width: 1200px) {
+       .hydrophobic {
+        margin-bottom: 30px; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+       .hydrophobic {
+        margin-bottom: 30px; } }
+     .hydrophobic__title {
+      font-size: 50px;
+      text-transform: uppercase;
+      font-family: Oswald-Bold;
+      color: #050505;
+      margin: 0;
+      margin-bottom: 15px;
+      line-height: 1.1;
+      padding: 0; }
+      @media (min-width: 768px) and (max-width: 991px) {
+         .hydrophobic__title {
+          font-size: 30px; } }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .hydrophobic__title {
+          font-size: 30px; } }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .hydrophobic__title {
+          font-size: 30px; } }
+      @media (min-width: 250px) and (max-width: 499px) {
+         .hydrophobic__title {
+          font-size: 30px; } }
+     .hydrophobic__highlight {
+      color: #1f3a93; }
+     .hydrophobic__desc {
+      font-size: 14px;
+      color: #282828;
+      font-family: Oswald-Bold;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-bottom: 20px; }
+     .hydrophobic__content-title {
+      font-family: Museo500;
+      font-weight: bold;
+      color: #1f3a93;
+      font-size: 20px;
+      line-height: 1.2; }
+      @media (min-width: 768px) and (max-width: 991px) {
+         .hydrophobic__content-title {
+          font-size: 20px; } }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .hydrophobic__content-title {
+          font-size: 20px; } }
+      @media (min-width: 250px) and (max-width: 499px) {
+         .hydrophobic__content-title {
+          font-size: 20px; } }
+     .hydrophobic__content {
+      font-family: Museo300;
+      font-size: 23px;
+      padding: 0;
+      line-height: 1.4;
+      margin-bottom: 34px; }
+@media (min-width: 992px) and (max-width: 1200px) {
+     .hydrophobic__content {
+        font-size: 22px;line-height: 1.3;}}
+      @media (min-width: 768px) and (max-width: 991px) {
+         .hydrophobic__content {
+          font-size: 18px; } }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .hydrophobic__content {
+          font-size: 18px;
+          margin-bottom: 20px; } }
+      @media (min-width: 250px) and (max-width: 499px) {
+         .hydrophobic__content {
+          font-size: 18px;
+          margin-bottom: 20px; } }
+     .hydrophobic img {
+      margin-bottom: 20px; }
+        .hydrophobic__img-left{
+            width: 100%;
+        }
+    @media (min-width: 500px) and (max-width: 767px) {
+         .hydrophobic img {
+            width: 80%;
+        }
+       .hydrophobic__img-left {
+        display: none; } }
+    @media (min-width: 250px) and (max-width: 499px) {
+       .hydrophobic__img-left {
+        display: none; } }
+     .hydrophobic__img-right {
+      margin: 0 auto; }
+     .hydrophobic__img-left-bottom {
+      display: none; }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .hydrophobic__img-left-bottom {
+          display: block;
+          margin: 0 auto; } }
+      @media (min-width: 250px) and (max-width: 499px) {
+         .hydrophobic__img-left-bottom {
+          display: block;
+          margin: 0 auto; } }
+    @media (min-width: 768px) and (max-width: 991px) {
+       .hydrophobic ul {
+        padding-left: 20px; } }
+     .hydrophobic ul li {
+      font-family: Museo300;
+      font-size: 18px;
+      padding: 0;
+      line-height: 1.2;
+      margin-bottom: 10px;
+      color: #1f3a93; }
+      @media (min-width: 768px) and (max-width: 991px) {
+         .hydrophobic ul li {
+          font-size: 16px;
+          margin-bottom: 2px; } }
+      @media (min-width: 500px) and (max-width: 767px) {
+         .hydrophobic ul li {
+          font-size: 18px; } }
+      @media (min-width: 250px) and (max-width: 499px) {
+         .hydrophobic ul li {
+          font-size: 18px; } }
+       .hydrophobic ul li span {
+        color: #282828; }
